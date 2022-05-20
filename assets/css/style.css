@@ -1,0 +1,26 @@
+body{
+    background-color: azure;
+}
+
+.menu{
+    display: flex;
+    gap: 2%;
+}
+
+
+p {
+    font-size: 24px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 50px;
+    padding: 10px;
+    background-color: bisque;
+   
+}
+
+.textos{
+    border: 2px dashed black;
+    display: flex;
+    justify-content: center;
+    gap: 25px
+}
