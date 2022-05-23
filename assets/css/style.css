@@ -96,3 +96,40 @@ p {
     list-style: none;
     
 }
+
+.info{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+.contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    min-height: 78vh; /* tamanho minimo da tela, mas pode crescer caso coloque mais conteudo. */
+    width: 75%;
+    margin: 0 auto;
+  }
+
+.contato form {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contato button {
+    padding: 0.5rem 1rem;
+    width: 100%;
+    border: 2px solid gray;
+    border-radius: 0.25rem;
+    background-color: transparent;
+    text-decoration-color: black;
+    color: gray;
+    font-size: 1.275rem;
+    font-weight: 600;
+    width: max(50%, 150px);
+    margin: 0 auto;
+    cursor: pointer; /* mudando o formato do cursor do mouse quando colocar em cima do botão, para mãozinha */
+    transition: 0.3s ease-out;
+  }
