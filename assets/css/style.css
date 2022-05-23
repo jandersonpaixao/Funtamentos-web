@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;400;700&display=swap');
 
 *{
     margin: 0;
@@ -36,7 +36,7 @@ body{
 }
 
 
-p {
+.mangue {
     border: 2px solid black;
     border-radius: 10px;
     margin: 50px;
@@ -83,7 +83,11 @@ p {
 .imagem img{
     width: 400px;
     height: 250px;
+    border: 2px solid #E95E13;
+    border-radius: 50%;
+
 }
+
 
 .textos img{
     width: 80%;
@@ -96,3 +100,65 @@ p {
     list-style: none;
     
 }
+.areacontato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    min-height: 78vh; /* tamanho minimo da tela, mas pode crescer caso coloque mais conteudo. */
+    width: 75%;
+    margin: 0 auto;
+  }
+  .contato form {
+      width: 60%;
+      display: flex;
+      flex-direction: column;
+      
+    }
+
+.txtinfo{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 55px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: bisque;
+    text-align: justify;
+    font-size: 20px;
+
+
+}
+
+
+  .contato button {
+    padding: 0.5rem 1rem;
+    width: 100%;
+    border: 2px solid gray;
+    border-radius: 0.25rem;
+    background-color: transparent;
+    text-decoration-color: black;
+    color: gray;
+    font-size: 1.275rem;
+    font-weight: 600;
+    width: max(50%, 150px);
+    margin: 0 auto;
+    cursor: pointer; /* mudando o formato do cursor do mouse quando colocar em cima do botão, para mãozinha */
+    transition: 0.3s ease-out;
+  }
+
+  footer {
+    font-size:medium;
+    text-align: center;
+    color: #E95E13;
+    font-weight: 100;
+    margin: 1rem 0;
+    border-top: 1px solid;
+    padding-top: 0.5rem;
+  }
+  
+  footer span {
+    font-weight: 400;
+    color: black;
+  }
